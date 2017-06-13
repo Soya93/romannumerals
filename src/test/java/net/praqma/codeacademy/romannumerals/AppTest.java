@@ -11,5 +11,4 @@ public class AppTest {
 		assertEquals("I", App.convert(1));
 		assertEquals("2", App.convert(2));
 	}
-
 }
