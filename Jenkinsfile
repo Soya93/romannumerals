@@ -7,4 +7,3 @@ node {
        sh: 'mvn test'
    }
 }
-ub
