@@ -1,7 +1,7 @@
 node {
 	   stage('Preparation') { // for display purposes
 	      // Get some code from a GitHub repository
-	      git credentialsId: '296cec77-12a9-4979-ae2b-3616c6e0b363', url: 'git@github.com:Soya93/romannumerals.git'
+	      git credentialsId: '296cec77-12a9-4979-ae2b-3616c6e0b363', url: 'git@github.com:praqma-training/romannumerals.git'
 	      // Get the Maven tool.
 	      // ** NOTE: This 'M3' Maven tool must be configured
 	      // **       in the global configuration.           
